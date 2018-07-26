@@ -1,0 +1,9 @@
+<html>
+  <head>
+    {{ $style := resources.Get "css/site.css" | postCSS (dict "config" "./postcss.config.ALTERNATE.js") }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+  </head>
+  <body>
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>

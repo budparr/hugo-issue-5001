@@ -1,0 +1,1 @@
+The Repo is a working example of a Hugo issue
