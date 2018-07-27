@@ -6,12 +6,12 @@
   "repository": "https://github.com/budparr/hugopipes-tailwindcss",
   "author": "budparr <budparr@gmail.com>",
   "license": "MIT",
-  "scripts": {    
+  "scripts": {
     "start": "hugo"
   },
-  "devDependencies": {    
+  "devDependencies": {
     "autoprefixer": "^9.0.1",
-    "postcss": "^7.0.1",
-    "postcss-cli": "^6.0.0"
+    "postcss": "^5.0.0",
+    "postcss-cli": "^5.0.0"
   }
 }
